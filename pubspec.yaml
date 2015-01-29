@@ -1,0 +1,13 @@
+name: connect_four
+version: 0.0.1
+author: Alexander Ivanov
+description: An implementation of the connect four game
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  route_hierarchical: '>=0.5.0 <0.7.0'
+  sass: '>=0.4.0 <0.5.0'
+  script_inliner: '>=1.0.0 <2.0.0'
+transformers:
+- script_inliner
